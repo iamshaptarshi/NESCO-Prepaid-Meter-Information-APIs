@@ -63,13 +63,13 @@ nesco-api/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+[git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/iamshaptarshi/NESCO-Prepaid-Meter-Information-APIs.git)
 ```
 
 ### Enter Project Directory
 
 ```bash
-cd YOUR_REPOSITORY
+cd NESCO-Prepaid-Meter-Information-APIs
 ```
 
 ### Install Dependencies
@@ -151,7 +151,7 @@ GET /api/health
 ### Request
 
 ```http
-GET /api/meter/33900436
+GET /api/meter/33900435
 ```
 
 ### Response
@@ -160,11 +160,11 @@ GET /api/meter/33900436
 {
   "success": true,
   "customer": {
-    "name": "MD SATTAR MOLLA",
+    "name": "XXXX",
     "address": "MIRERCHAK GHORAMARA - 6100 BOALIA RAJSHAHI",
     "mobile": "+880194*****87",
     "office": "Rajshahi S&D1",
-    "consumerNo": "33900436",
+    "consumerNo": "33900435",
     "meterNo": "20410021308",
     "tariff": "LT-A",
     "meterType": "Single-Phase Meter",
@@ -178,7 +178,7 @@ GET /api/meter/33900436
 
   "endpoints": {
     "rechargeHistoryPdf": "/api/meter/33900436/recharge-history/pdf",
-    "certificatePdf": "/api/meter/33900436/certificate/pdf"
+    "certificatePdf": "/api/meter/33900435/certificate/pdf"
   }
 }
 ```
@@ -206,7 +206,7 @@ application/pdf
 ### Request
 
 ```http
-GET /api/meter/33900436/certificate/pdf
+GET /api/meter/33900435/certificate/pdf
 ```
 
 ### Response
