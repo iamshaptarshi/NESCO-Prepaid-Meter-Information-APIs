@@ -321,10 +321,6 @@ npm start
 
 Md. Shaptarshi
 
-Software Engineering Student
+Information and Communication Engineering Student
 
 Bangladesh
-
-```
-
-```
