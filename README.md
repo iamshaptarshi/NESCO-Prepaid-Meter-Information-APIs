@@ -63,7 +63,7 @@ nesco-api/
 ### Clone Repository
 
 ```bash
-[git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/iamshaptarshi/NESCO-Prepaid-Meter-Information-APIs.git)
+git clone https://github.com/iamshaptarshi/NESCO-Prepaid-Meter-Information-APIs.git
 ```
 
 ### Enter Project Directory
